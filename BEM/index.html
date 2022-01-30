@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./UI.css" />
+    <title>HTML CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <!-- BEM: Block Element Modifier -->
+    <!-- 
+        Laptop: Block
+        keyboard, mouse, touchpad, screeen: Element
+        Laptop Big, laptop small: Modifier for Block
+        small keyboard, small screen: Modifier for element
+
+        Block_Element --modifier
+        Block --modifier
+        Block__Element
+
+        laptop 
+        laptop_keyboard, laptop_touchpad, laptop_screen
+        laptop -- small, laptop--exensive, laptop--big
+        laptop__touchpadm--smooth, laptop__Screen -- scale
+
+
+        Tieu de: title
+        danh muc: category
+
+        Phiaduoi: 
+
+        laptop__keyboard -> laptop-keyboard
+
+
+    -->
+    <!--ex1:
+        Block flash-message
+        Element: image, title, description(desc), button
+        Modifier: primary, secondary
+    -->
+    <!-- Block 1:
+        flash-message
+        flash-message__image, flash-message_title, flash--message_desc, flash-message_button
+
+        Block 1: flash-message_title--primary, flash-message_button--primary
+        Block 2: flash-message_title--secondary, flash-message__button--secondary
+
+
+     -->
+    <!-- 
+         boy_arm, boy_leg, boy_eye, boy_nose
+         boy_arm--log, boy_eye--big
+         boy--tall, boy--fat
+     -->
+    <div class="camera">
+        <div class="back"></div>
+        <div class="top_middle">
+
+            <div class="top_left">
+                <div class="body">
+                    <div class="border"></div>
+                    <div class="middle"></div>
+                </div>
+            </div>
+            <div class="plus_button">
+                <div class="inner">
+                    <h1>
+                        <i class="fas fa-plus"></i></h1>
+                </div>
+            </div>
+            <div class="under_plus">
+                <div class="inner"></div>
+            </div>
+            <div class="red_button_container">
+                <div class="red_button"></div>
+            </div>
+            <div class="lens">
+                <div class="lens_1">
+                    <div class="lens_2">
+                        <div class="lens_3">
+                            <div class="lens_4">
+                                <!--       green goes here         -->
+                                <div class="lens_5">
+                                    <div class="lens_6">
+                                        <div class="lens_7"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="under_lens">
+                <div class="inner"></div>
+            </div>
+            <div class="rainbow"></div>
+            <div class="top_right">
+                <div class="viewfinder">
+                    <div class="inner_1">
+                        <div class="inner_2">
+                            <div class="inner_3">
+                                <div class="hole"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadows_middle"></div>
+                <div class="shadows_left"></div>
+                <div class="shadows_left_corner"></div>
+                <div class="shadows_right"></div>
+                <div class="shadows_right_corner"></div>
+            </div>
+            <div class="middle_right">
+                <div class="middle">
+                    <div class="circle"></div>
+                </div>
+                <p class="minus">
+                    <i class="fas fa-minus"></i>
+                </p>
+                <p class="plus">
+                    <i class="fas fa-plus"></i>
+                </p>
+            </div>
+            <div class="text">
+                <h1>One</h1>
+                <h1>Step</h1>
+                <h1><i class="fas fa-plus"></i></h1>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="top">
+                <div class="left"></div>
+                <div class="middle">
+                    <div class="switch">
+                        <div class="switch_btn"></div>
+                    </div>
+                </div>
+                <div class="right"></div>
+            </div>
+            <div class="btm">
+                <h1>Polaroid</h1>
+                <h1>I-TYPE CAMERA</h1>
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="under_btm"></div>
+        <div class="corners">
+            <div class="corner_left"></div>
+            <div class="corner_right"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
